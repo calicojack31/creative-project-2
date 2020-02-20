@@ -24,7 +24,12 @@ document.getElementById("cultureSubmit").addEventListener("click", function(even
           results += '<div class="col-md">';
           results += "<img src=" + "'" + json.records[i].primaryimageurl + "'" + "class='art-image img-fluid'/>";
           results += "<h4>" + json.records[i].people[0].role + ": " + json.records[i].people[0].displayname + "</h4>";
-          results += "<h4>" + "Dated: " + json.records[i].dated + "</h4>";
+          results += "<h4>" + "Dated: ";
+          if (json.records[i].dated === null) {
+            results += "Unavailable</h4>";
+          } else {
+            results += json.records[i].dated + "</h4>";
+          }
           results += "<h4>" + "Technique: ";
           if (json.records[i].technique === null) {
             results += "Unavailable</h4>";
