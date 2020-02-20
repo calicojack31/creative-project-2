@@ -1,0 +1,75 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  color: #2e2e2e;
+  background-color: #f7f7f7;
+  font-family: 'Lora', serif;
+  margin-top: 10px;
+  margin-bottom: 130px;
+}
+
+h1 {
+  font-size: 3.5em;
+}
+
+.welcome-message,
+label,
+.footer-heading {
+  font-size: 1.25em;
+}
+
+.retrieved-culture {
+  margin-top: 1.5em;
+}
+
+.weather-description {
+  text-align: center;
+}
+
+.page-top,
+.section-title,
+.footer-heading, h2 {
+  color: #4f0124;
+  /*text-align: center;*/
+  font-family: 'Playfair Display', serif;
+}
+
+.weather-icon {
+  margin: auto;
+  display: block;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 130px;
+}
+
+.footer-text {
+  font-size: 1em;
+  /*text-align: center;*/
+}
+
+.footer-heading {
+  /*text-align: center;*/
+}
+
+/*
+MAKE IT SO IMAGES ARE CENTERED
+*/
+.col-md {
+  margin-top: 1.25em;
+  margin-bottom: 1.25em;
+  margin-left: .75em;
+  margin-right: .75em;
+  border: .5px solid #2e2e2e;
+  min-width: 40%;
+}
+
+a {
+  color: #bd2067;
+}
