@@ -36,11 +36,6 @@ label,
   font-family: 'Playfair Display', serif;
 }
 
-.weather-icon {
-  margin: auto;
-  display: block;
-}
-
 footer {
   position: absolute;
   bottom: 0;
